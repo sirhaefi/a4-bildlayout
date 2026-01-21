@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+}
