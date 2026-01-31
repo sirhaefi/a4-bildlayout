@@ -5,7 +5,7 @@
         <input type="file" (change)="onFileChange($event, i)" accept="image/*" />
         <ng-container *ngIf="img; else placeholder">
           <img [src]="img" alt="Bild" />
-        </ng-container>
+        </ng-container> 
         <ng-template #placeholder>
           <div class="placeholder">
             <span>Bild {{ i + 1 }}</span>
